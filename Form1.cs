@@ -42,8 +42,8 @@ namespace WindowsFormsApplication24
                 label16.Text = dpt1.Value.ToString();//แสดงdpt1 ให้มีค่าเท่ากับ label16.text
             }
             {
-                string userSelected = null;//ช่องว่าง
-                userSelected = dpt2.Value.ToString();//แปลงค่าจากช่องว่างเป็น dpt2
+                string userSelected = null;
+                userSelected = dpt2.Value.ToString();//แปลงค่าเป็น dpt2
                 dpt2.Format = DateTimePickerFormat.Custom;//กำหนดวันที่ที่ลูกค้ามาคืนรถ
                 dpt2.CustomFormat = "dd mm yyyy hh mm";//วัน เดือน ปี ชั่วโมง นาที  
 
